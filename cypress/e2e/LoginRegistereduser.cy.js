@@ -7,7 +7,7 @@ describe('Login test scenario', () => {
         cy.get("a[class='ng-binding']").click()
         cy.get("#month").select('March')
         cy.get("#month").select(1)
-        
+         
         
         
     })
